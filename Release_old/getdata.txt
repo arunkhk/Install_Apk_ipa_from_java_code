@@ -1,0 +1,8 @@
+
+E:\Arun_Java_Workspace\YaantraMobileDiagnosis\Release>if not "STDOUT_TO_FILE" == "STDOUT_TO_FILE" E:\Arun_Java_Workspace\YaantraMobileDiagnosis\iOS-installer\readLogBatchFile.bat STDOUT_TO_FILE STDOUT_TO_FILE   1>getdata.txt 2>&1 
+
+E:\Arun_Java_Workspace\YaantraMobileDiagnosis\Release>shift /1 
+
+E:\Arun_Java_Workspace\YaantraMobileDiagnosis\Release>idevicesyslog
+[connected]
+^C

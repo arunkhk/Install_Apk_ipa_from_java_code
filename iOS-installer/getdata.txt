@@ -1,0 +1,1011 @@
+
+E:\Arun_Java_Workspace\YaantraMobileDiagnosis\iOS-installer>if not "STDOUT_TO_FILE" == "STDOUT_TO_FILE" "E:\Arun_Java_Workspace\YaantraMobileDiagnosis\iOS-installer\readLogBatchFile.bat" STDOUT_TO_FILE STDOUT_TO_FILE   1>getdata.txt 2>&1 
+
+E:\Arun_Java_Workspace\YaantraMobileDiagnosis\iOS-installer>shift /1 
+
+E:\Arun_Java_Workspace\YaantraMobileDiagnosis\iOS-installer>idevicesyslog  
+[connected]
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673227393402) - 104ms - PowerDown (673229893671) - 103ms - SensorUp (673232378905) - 1309962675ms - PatchLoaded (0) - 28051356ms - End (673232553891), Total: 215ms
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82536
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:57 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673232380117
+Feb  6 19:57:57 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:57 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673232554524) - 103ms - PowerDown (673235050202) - 105ms - SensorUp (673237574638) - 1309962459ms - PatchLoaded (0) - 28051573ms - End (673237760359), Total: 216ms
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82537
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:57 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:57 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673237576177
+Feb  6 19:57:57 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:57 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673237761279) - 104ms - PowerDown (673240264585) - 104ms - SensorUp (673242760918) - 1309962243ms - PatchLoaded (0) - 28051790ms - End (673242964604), Total: 216ms
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82538
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:58 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673242762583
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:58 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673247944983
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673242965425) - 103ms - PowerDown (673245460086) - 103ms - SensorUp (673247943718) - 1309962027ms - PatchLoaded (0) - 28052004ms - End (673248114764), Total: 214ms
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82539
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:58 Yaantras-iPhone parsecd[180] <Notice>: app whitelist signature: <private>
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673253099949
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673248115130) - 103ms - PowerDown (673250603800) - 103ms - SensorUp (673253097554) - 1309961812ms - PatchLoaded (0) - 28052220ms - End (673253296932), Total: 215ms
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82540
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673253297840) - 104ms - PowerDown (673255805141) - 103ms - SensorUp (673258300255) - 1309961595ms - PatchLoaded (0) - 28052437ms - End (673258502558), Total: 216ms
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82541
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:58 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673258301920
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673258503332) - 104ms - PowerDown (673261009815) - 103ms - SensorUp (673263492463) - 1309961379ms - PatchLoaded (0) - 28052654ms - End (673263699127), Total: 216ms
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82542
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:58 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:58 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673263494132
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:58 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673263700057) - 104ms - PowerDown (673266206827) - 104ms - SensorUp (673268704584) - 1309961162ms - PatchLoaded (0) - 28052870ms - End (673268902233), Total: 216ms
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82543
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:59 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673268706196
+Feb  6 19:57:59 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:59 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673268902718) - 104ms - PowerDown (673271416987) - 104ms - SensorUp (673273930461) - 1309960944ms - PatchLoaded (0) - 28053088ms - End (673274134060), Total: 217ms
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82544
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:59 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673273932116
+Feb  6 19:57:59 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:59 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673279142846
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673274134844) - 104ms - PowerDown (673276637798) - 104ms - SensorUp (673279140542) - 1309960727ms - PatchLoaded (0) - 28053306ms - End (673279344564), Total: 217ms
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82545
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:59 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:59 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673284349877
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673279345335) - 104ms - PowerDown (673281850499) - 104ms - SensorUp (673284348214) - 1309960510ms - PatchLoaded (0) - 28053522ms - End (673284539572), Total: 216ms
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82546
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:59 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:57:59 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:57:59 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673284540221) - 103ms - PowerDown (673287029697) - 104ms - SensorUp (673289528366) - 1309960294ms - PatchLoaded (0) - 28053738ms - End (673289732633), Total: 216ms
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82547
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:57:59 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673289530003
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673289733353) - 104ms - PowerDown (673292236998) - 103ms - SensorUp (673294712154) - 1309960078ms - PatchLoaded (0) - 28053954ms - End (673294910662), Total: 215ms
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82548
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:58:00 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673294713889
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673299918784
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673294911569) - 104ms - PowerDown (673297418915) - 104ms - SensorUp (673299917040) - 1309959861ms - PatchLoaded (0) - 28054171ms - End (673300122258), Total: 217ms
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82549
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673300123218) - 104ms - PowerDown (673302629586) - 104ms - SensorUp (673305128258) - 1309959644ms - PatchLoaded (0) - 28054388ms - End (673305328250), Total: 216ms
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82550
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:58:00 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673305129895
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673310315229
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673305329213) - 103ms - PowerDown (673307808677) - 104ms - SensorUp (673310313613) - 1309959428ms - PatchLoaded (0) - 28054604ms - End (673310517434), Total: 216ms
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82551
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:00 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:58:00 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673315533461
+Feb  6 19:58:01 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:58:01 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673310518506) - 105ms - PowerDown (673313043740) - 103ms - SensorUp (673315532317) - 1309959211ms - PatchLoaded (0) - 28054820ms - End (673315692039), Total: 215ms
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82552
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673320660822
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:58:01 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673315693018) - 103ms - PowerDown (673318177639) - 103ms - SensorUp (673320659914) - 1309958997ms - PatchLoaded (0) - 28055034ms - End (673320825684), Total: 213ms
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82553
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ResetAction() entry: _client=<private>, isOpen()=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset <- status:<private>, statusSize:16, resetReason:2 (_sensorOpen:1, _sensorState:0)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: HandleReset: kResetReasonESD
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: LoadPatch <- patch:0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x0, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession <- outEstablishPaired:<private> (_provisioningRequested:0, _provisioningType:0)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareNotPairedSession -> err:0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: prepareSession: Establishing UID session...
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: performKeyExchange <- sessionType:0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0xe, param0=0x28, param1=<private>, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone biometrickitd(libBKDM1.dylib)[99] <Notice>: statusMessage:withData:timestamp: 84 0 673325805857
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: sepMessageReceived: SEP returned error, request = 27, data = 22, length = 0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: sepSendCommand -> err:0x16
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: performKeyExchange -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: prepareSession -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: ERROR: LoadPatch: AssertMacros: err == 0  (value = 0xffffffffe00002e6),  file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/Mesa/Mesa-496.220.8/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp, line: 6322
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Error>: LoadPatch -> err:0xe00002e6
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: FIRE_ESD_RECOVERY, reason=5
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: RecoveryTiming: Start (673320826048) - 103ms - PowerDown (673323315435) - 103ms - SensorUp (673325804703) - 1309958783ms - PatchLoaded (0) - 28055248ms - End (673325972555), Total: 214ms
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: ESDRecoveryAction() entry: sender=<private>
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: trying to recover from abnormal state
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleMesaSEPDriver)[0] <Notice>: message: kAppleBiometricRecoveryReason
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleBiometricSensor: RECOVERY: Reason 5, Last command 0xe
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: Stats:
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 0:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 1:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 2:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 3:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 4:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 5:  82554
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 6:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 7:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 8:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 9:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 10:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 11:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 12:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 13:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 14:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 15:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 16:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 17:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: 18:  0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x8d, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleInterrupt() entry: state=1
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AssertMacros: result == 0  (value = 0xffffffffe00002c7), unsupported function file: /BuildRoot/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleBiometricSensor-192.200.3/AppleMesa.cpp, line: 2999
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: AppleSPIBiometricSensor::_interruptAction -- error from handleInterrupt (unsupported function)
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: handleCMDSync() entry: cmd=0x15, param0=0x0, param1=0x0, param2=0x0
+Feb  6 19:58:01 Yaantras-iPhone kernel(AppleBiometricSensor)[0] <Notice>: powerOnReset() entry
+Feb  6 19:58:01 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: 84
+Feb  6 19:58:01 Yaantras-iPhone SpringBoard(BiometricKit)[52] <Notice>: BKOperation::statusMessage: -> void
+^C

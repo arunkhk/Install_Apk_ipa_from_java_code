@@ -1,0 +1,1 @@
+adb install "b2c.apk" && adb shell am start -n com.yaantraportal.app/com.yaantra.b2c.Activity.SplashScreen

@@ -1,0 +1,5 @@
+Feb  6 19:14:19 Yaantras-iPhone Yaantra Buyback(libswiftFoundation.dylib)[954] <Notice>: YANTRA_DIONOSIS_JAVA_PROJECT :qqWifi_Not
+Feb  6 19:14:19 Yaantras-iPhone Yaantra Buyback(libswiftFoundation.dylib)[954] <Notice>: YANTRA_DIONOSIS_JAVA_PROJECT :qqqgGPS_Ok
+Feb  6 19:14:25 Yaantras-iPhone Yaantra Buyback(libswiftFoundation.dylib)[954] <Notice>: YANTRA_DIONOSIS_JAVA_PROJECT :qqBlth_Not
+Feb  6 19:15:04 Yaantras-iPhone Yaantra Buyback(libswiftFoundation.dylib)[954] <Notice>: YANTRA_DIONOSIS_JAVA_PROJECT :qqVlUp_Not
+Feb  6 19:15:10 Yaantras-iPhone Yaantra Buyback(libswiftFoundation.dylib)[954] <Notice>: YANTRA_DIONOSIS_JAVA_PROJECT :qqVlDo_Not
