@@ -12,6 +12,5 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/BuyBackResourse/geocoder-2.3.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
